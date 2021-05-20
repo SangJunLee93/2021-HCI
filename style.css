@@ -1,0 +1,103 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.background {
+  height: 700px;
+  width: 314px;
+  border: black solid 8px;
+  background-color: rgb(1, 75, 1);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ad {
+  height: 120px;
+  background-color: white;
+}
+
+.floor {
+  margin: 22px 8px 15px 6px;
+  height: 80px;
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.name {
+  margin: 3px;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.slide {
+  margin: 3px;
+  width: 200px;
+  height: 90px;
+  background-color: white;
+  border-radius: 5%;
+  display: list-item;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.menu {
+  margin: 3px;
+  background-color: gainsboro;
+  width: 60px;
+  height: 60px;
+  font-display: inherit;
+  display: inline-block;
+}
+
+.menu_name {
+  font-size: 10px;
+  text-align: center;
+}
+
+.cart {
+  margin: 5px;
+  height: 150px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#cart_main {
+  margin: 5px;
+  height: 130px;
+  width: 220px;
+  background-color: white;
+  white-space: nowrap;
+  overflow-y: scroll;
+}
+#buttons {
+  margin: 5px;
+  height: 150px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+button {
+  margin: 3px;
+  padding: 7px;
+  font-size: 18px;
+  background-color: red;
+  color: white;
+}
+
+#text_cart_main {
+  margin: 3px;
+}
