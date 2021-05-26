@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  align-items: center;
+}
+
+.background_popup {
+  height: 200px;
+  width: 300px;
+  background-color: rgb(1, 75, 1);
+  border: black solid 5px;
+}
+
+.body_popup {
+  margin: 10px;
+}
+
+.title_popup {
+  margin-top: 20px;
+  color: yellow;
+  font-size: 22px;
+}
+
+.text_popup {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 15px;
+}
+
+button {
+  height: 40px;
+  width: 130px;
+  color: white;
+  font-size: 15px;
+  background-color: red;
+}
